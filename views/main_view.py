@@ -1286,11 +1286,9 @@ class StatsTab(tk.Frame):
         self.stat_card_labels["streak"] = self.create_stat_card(self.cards_frame, "🔥 Поточний стрік", self.current_streak_var, 2, 0, color="#ff9800")
         self.stat_card_labels["max_streak"] = self.create_stat_card(self.cards_frame, "🏆 Найдовший стрік", self.longest_streak_var, 2, 1, color="#f5b041")
 
-
         self.words_frame = tk.Frame(self.stats_frame, bg="white", bd=1, relief="solid")
         self.words_frame.pack(padx=20, pady=10, fill="both", expand=True)
         
-
         self.words_label = tk.Label(self.words_frame, text="Слова для повторення:", font=("Arial", 12, "bold"), bg="white")
         self.words_label.pack(pady=(10, 0))
         
@@ -1336,10 +1334,8 @@ class StatsTab(tk.Frame):
         # 3. Оновлюємо лейбл над полем зі словами
         self.words_label.config(text=ui_texts.get("words_to_repeat", "Слова для повторення:"))
         
-
         self.achievements_header_label.config(text=ui_texts.get("your_achievements", "Ваші досягнення 🏆"))
-        # 4. Оновлюємо заголовки на картках статистики
-        # (Використовуємо словник, який ми створили в __init__)
+
         if hasattr(self, 'stat_card_labels'):
             if "total" in self.stat_card_labels:
                 self.stat_card_labels["total"].config(text=ui_texts.get("total_answers", "📊 Загалом відповідей"))
@@ -1355,7 +1351,6 @@ class StatsTab(tk.Frame):
                 self.stat_card_labels["max_streak"].config(text=ui_texts.get("longest_streak", "🏆 Найдовший стрік"))
 
     def create_stat_card(self, parent, title, variable, row, col, color="#333333"):
-        """Допоміжний метод для створення гарної 'картки' з цифрою"""
         card = tk.Frame(parent, bg="white", bd=1, relief="ridge", padx=10, pady=10)
         card.grid(row=row, column=col, padx=5, pady=5, sticky="nsew")
 
@@ -1365,7 +1360,6 @@ class StatsTab(tk.Frame):
         label_value = tk.Label(card, textvariable=variable, font=("Arial", 20, "bold"), bg="white", fg=color)
         label_value.pack()
 
-        # ОБОВ'ЯЗКОВО додаємо цей рядок:
         return label_title
 
     def set_wrong_words_var(self, text: str):
@@ -1387,11 +1381,9 @@ class StatsTab(tk.Frame):
         self.update_wrong_words_ui(stats)
 
     def update_achievements_ui(self, achievements_data: dict, current_texts: dict):
-        # 1. Очищаємо ТІЛЬКИ фрейм з картками (заголовок залишається цілим!)
         for widget in self.achievements_grid_frame.winfo_children():
             widget.destroy()
 
-        # 2. Налаштовуємо колонки
         self.achievements_grid_frame.columnconfigure(0, weight=1, uniform="equal")
         self.achievements_grid_frame.columnconfigure(1, weight=1, uniform="equal")
         self.achievements_grid_frame.columnconfigure(2, weight=1, uniform="equal")
@@ -1402,7 +1394,6 @@ class StatsTab(tk.Frame):
         for ach_id, ach_info in achievements_data.items():
             is_unlocked = ach_info["is_unlocked"]
             
-            # Дістаємо тексти з фолбеком на "Unknown"
             ach_texts = current_texts.get(ach_id, {"title": "Unknown", "description": "Unknown"})
             title_text = ach_texts["title"]
             desc_text = ach_texts["description"]
@@ -1414,7 +1405,6 @@ class StatsTab(tk.Frame):
             icon = ach_info["icon"] if is_unlocked else "🔒" 
             hbg = "#2A821A" if is_unlocked else "#888888"
             
-            # Створюємо саму картку, кладемо її в achievements_grid_frame
             card = tk.Frame(self.achievements_grid_frame, bg=bg_color, 
                             bd=1, relief="solid", 
                             padx=10, pady=10,
@@ -1428,7 +1418,6 @@ class StatsTab(tk.Frame):
             icon_label = tk.Label(card, text=icon, font=("Arial", 24), bg=bg_color, fg=title_color)
             icon_label.pack(side="left", padx=(0, 10))
 
-            # Текстовий блок
             text_frame = tk.Frame(card, bg=bg_color)
             text_frame.pack(side="left", fill="both", expand=True)
 
