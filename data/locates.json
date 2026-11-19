@@ -1,0 +1,383 @@
+{
+    "uk": {
+        "ui": {
+            "main_title": "Wordly",
+            "menu_language": "Мова",
+            
+            "editor_tab": "Редактор",
+            "path_to_file": "Шлях до файлу",
+            "format": "Формат: слово - переклад(кожне з нового рялка)",
+            "browse": "Огляд...",
+            "drop_zone_label": "Виберіть файл через кнопку 'огляд' або перетягніть його сюди ⬇️",
+            "drop_zone": "Перетягніть PDF, DOCX, JSON, TXT файл зі словами сюди",
+            "dict_name_label": "Назва словника",
+            "dict_name_entry": "Введіть назву словника...",
+            "save_dict": "Зберегти словник",
+
+            "dictionaries_tab": "Мої словники",
+            "my_dictionaries": "Мої словники",
+            "save_changes": "Зберегти словник",
+            "delete_dict": "Видалити словник",
+            "sort_by_word": "Сортувати за словом",
+            "sort_by_translation": "Сортувати за перекладом",
+            "find": "Знайти",
+            "find_placeholder": "Введіть слово для пошуку...",
+
+            "quiz_tab": "Тестування",
+            "choose_dict": "Виберіть словник для тестування",
+            "mode_20_words": "20 слів",
+            "mode_mistakes": "Повторення помилок",
+            "mode_inf_words": "Безкінечно",
+            "mode_all_words": "Усі слова",
+            "select_test_mode": "Оберіть режим тесту вище",
+            "questin_label": "Перекладіть слово:",
+            "answer_placeholder": "Ваша відповідь?",
+            "answer_btn": "Відповісти",
+            "hint_btn": "Підказка",
+            "hint_label": "Підказка з'явиться тут",
+
+            "mode_matching": "Відповідність",
+            "original_label": "Оригінал",
+            "translation_label": "Переклад",
+
+            "mode_cards": "Картки",
+            "know_btn": "Знаю",
+            "dont_know_btn": "Не знаю",
+
+            "translator_tab": "Перекладач",
+            "language_label": "Виберіть мову перекладу",
+            "translator_placeholder": "Введіть слово для перекладу...",
+            "translate_btn": "Перекласти",
+            "ukrainian": "Українська",
+            "english": "Англійська",
+            "german": "Німецька",
+            "polish": "Польська",
+            "chech": "Чеська",
+
+            "stats_tab": "Статистика",
+            "general_stats_tab": "Загальна статистика",
+            "total_answers": "Загалом відповідей",
+            "correct_answers": "Правильних відповідей",
+            "wrong_answers": "Неправильних відповідей",
+            "total_quizzes": "Тестувань пройдено",
+            "current_streak": "Поточний стрік",
+            "longest_streak": "Найдовший стрік",
+            "words_to_repeat": "Слова для повторення:",
+            "times": "раз.",
+
+            "achievements_tab": "Досягнення",
+            "your_achievements": "Ваші досягнення",
+
+            "clear_words": "Очистити слова",
+            "clear_stats": "Очистити статистику",
+            "clear_achievements": "Очистити досягнення",
+
+            
+            "how_to_translate": "[{}/{}] Як перекласти: {}?",
+            "how_to_say": "[{}/{}] Як сказати: {}?",
+            "correct_answer": "Правильно! Стрік {}.",
+            "wrong_answer": "Помилка! Правильно: {}.",
+            "hint_translation": "Підказка - {}",
+
+
+            "warning": "Увага",
+            "error": "Помилка",
+            "success": "Успіх",
+
+            "enter_dict_name": "Будь ласка, введіть назву словника.",
+            "confirm_create_empty_dict": "Ви впевнені, що хочете створити пустий словник?",
+            "dict_created": "Словник {} успішно створено!",
+
+            "select_dict_to_delete": "Будь ласка, виберіть словник для видалення.",
+            "confirm_delete": "Ви впевнені, що хочете видалити цей словник?",
+            "dict_deleted": "Словник {} успішно видалено!",
+
+            "select_dict_to_update": "Будь ласка, виберіть словник для оновлення.",
+            "dict_updated": "Словник {} успішно оновлено!",
+
+            "select_dict_to_sort": "Будь ласка, виберіть словник для сортування.",
+            
+            "select_dict_for_test": "Будь ласка, виберіть словник для тестування.",
+            "select_dict_for_matching": "Будь ласка, виберіть словник для режиму 'Відповідність'.",
+            "select_dict_for_cards": "Будь ласка, виберіть словник для режиму 'Картки'.",
+
+            "empty_dict_warning": "Не можна почати тестування з пустим словником.",
+            "matching_mode_warning": "Для режиму 'Відповідність' потрібно не менше 2 слів у словнику.",
+            "no_words_to_repeat": "Немає слів для повторення.",
+
+            "enter_word_to_translate": "будь ласка, введіть слово для перекладу.",
+            "select_different_langs": "Будь ласка, виберіть різні мови.",
+
+            "confirm_clear_stats": "Ви впевнені, що хочете очистити статистику?",
+            "confirm_clear_achievements": "Ви впевнені, що хочете очистити досягнення?",
+            "confirm_clear_words": "Ви впевнені, що хочете очистити неправильні слова?",
+
+
+
+            "popup_session_title": "Результати тесту",
+            "popup_cards_title": "Результати карток",
+            "popup_test_completed": "Тестування завершено!",
+            "popup_session_completed": "Сесія завершена!",
+            "popup_correct_format": "✅ Правильно: {correct}",
+            "popup_mistakes_format": "❌ Помилок: {wrong}",
+            "popup_learned_format": "✅ Вивчено: {correct}",
+            "popup_still_learning_format": "❌ Ще вивчаю: {wrong}",
+            "popup_accuracy_format": "Точність: {accuracy}%",
+            "popup_words_to_repeat": "Слова для повторення:",
+            "popup_perfect_result": "🎉 Ідеальний результат!\nВи не зробили жодної помилки.",
+            "popup_btn_retry": "Повторити помилки",
+            "popup_btn_menu": "Головне меню",
+            "popup_btn_close": "Закрити",
+
+
+            "new_achievement_title": "🏆 Нове досягнення!",
+            "new_achievements_title": "🏆 Нові досягнення!",
+            "congrats_single": "Вітаємо! Ви здобули нове досягнення:\n\n",
+            "congrats_multiple": "Вітаємо! Ви здобули нові досягнення:\n\n"
+
+
+        },
+        "achievements": {
+            "first_word": {
+                "title": "Перший крок",
+                "description": "Дати першу правильну відповідь у тестуванні."
+            },
+            "first_mistake": {
+                "title": "От невдача",
+                "description": "Зробити першу помилку у тестуванні."
+            },
+            "streak_10": {
+                "title": "Вундеркінд",
+                "description": "Зробити серію з 10 правильних відповідей підряд у тестуванні."
+            },
+            "polyglot": {
+                "title": "Поліглот",
+                "description": "Дати 100 правильних відповідей загалом."
+            },
+            "perfect_test": {
+                "title": "Снайпер",
+                "description": "Пройти тест на 20 слів без жодної помилки."
+            },
+            "living_dictionary": {
+                "title": "Живий Словник",
+                "description": "Дати 500 правильних відповідей загалом."
+            },
+            "streak_50": {
+                "title": "Незупинний",
+                "description": "Зробити серію з 50 правильних відповідей підряд."
+            },
+            "night_owl": {
+                "title": "Нічна Сова",
+                "description": "Пройти будь-який тест між 23:00 і 4:00."
+            },
+            "early_bird": {
+                "title": "Рання пташка",
+                "description": "Пройти будь-який тест між 5:00 і 8:00."
+            },
+            "the_end": {
+                "title": "Кінець?",
+                "description": "Очистити всю статистику і почати з початку."
+            },
+            "librarian": {
+                "title": "Бібліотекар",
+                "description": "Створити 10 словників."
+            }
+        },
+        "languages": {
+        "en": "Англійська",
+        "uk": "Українська",
+        "de": "Німецька",
+        "pl": "Польська",
+        "cs": "Чеська"
+        }
+    },
+    "en": {
+        "ui": {
+            "main_title": "Wordly",
+            "menu_language": "Language",
+            
+            "editor_tab": "Editor",
+            "path_to_file": "File path",
+            "format": "Format: word - translation (each on a new line)",
+            "browse": "Browse...",
+            "drop_zone_label": "Select a file via 'Browse' button or drag and drop it here ⬇️",
+            "drop_zone": "Drag and drop PDF, DOCX, JSON, TXT file with words here",
+            "dict_name_label": "Dictionary name",
+            "dict_name_entry": "Enter dictionary name...",
+            "save_dict": "Save dictionary",
+
+            "dictionaries_tab": "My Dictionaries",
+            "my_dictionaries": "My Dictionaries",
+            "save_changes": "Save dictionary",
+            "delete_dict": "Delete dictionary",
+            "sort_by_word": "Sort by word",
+            "sort_by_translation": "Sort by translation",
+            "find": "Find",
+            "find_placeholder": "Enter word to search...",
+
+            "quiz_tab": "Testing",
+            "choose_dict": "Choose dictionary for testing",
+            "mode_20_words": "20 words",
+            "mode_mistakes": "Review mistakes",
+            "mode_inf_words": "Endless",
+            "mode_all_words": "All words",
+            "select_test_mode": "Choose test mode above",
+            "questin_label": "Translate the word:",
+            "answer_placeholder": "Your answer?",
+            "answer_btn": "Answer",
+            "hint_btn": "Hint",
+            "hint_label": "Hint will appear here",
+
+            "mode_matching": "Matching",
+            "original_label": "Original",
+            "translation_label": "Translation",
+
+            "mode_cards": "Flashcards",
+            "know_btn": "I know",
+            "dont_know_btn": "I don't know",
+
+            "translator_tab": "Translator",
+            "language_label": "Choose translation language",
+            "translator_placeholder": "Enter word to translate...",
+            "translate_btn": "Translate",
+            "ukrainian": "Ukrainian",
+            "english": "English",
+            "german": "German",
+            "polish": "Polish",
+            "chech": "Czech",
+
+            "stats_tab": "Statistics",
+            "general_stats_tab": "General statistics",
+            "total_answers": "Total answers",
+            "correct_answers": "Correct answers",
+            "wrong_answers": "Wrong answers",
+            "total_quizzes": "Quizzes completed",
+            "current_streak": "Current streak",
+            "longest_streak": "Longest streak",
+            "words_to_repeat": "Words to repeat:",
+            "times": "times",
+
+            "achievements_tab": "Achievements",
+            "your_achievements": "Your achievements",
+
+            "clear_words": "Clear words",
+            "clear_stats": "Clear statistics",
+            "clear_achievements": "Clear achievements",
+
+
+            "how_to_translate": "[{}/{}] How to translate: {}?",
+            "how_to_say": "[{}/{}] How to say: {}?",
+            "correct_answer": "Correct! Streak {}.",
+            "wrong_answer": "Incorrect! Correct answer: {}.",
+            "hint_translation": "Hint: - {}",
+
+
+            "warning": "Warning",
+            "error": "Error",
+            "success": "Success",
+
+            "enter_dict_name": "Please enter a dictionary name.",
+            "confirm_create_empty_dict": "Are you sure you want to create an empty dictionary?",
+            "dict_created": "Dictionary {} successfully created!",
+
+            "select_dict_to_delete": "Please select a dictionary to delete.",
+            "confirm_delete": "Are you sure you want to delete this dictionary?",
+            "dict_deleted": "Dictionary {} successfully deleted!",
+
+            "select_dict_to_update": "Please select a dictionary to update.",
+            "dict_updated": "Dictionary {} successfully updated!",
+
+            "select_dict_to_sort": "Please select a dictionary to sort.",
+            
+            "select_dict_for_test": "Please select a dictionary for testing.",
+            "select_dict_for_matching": "Please select a dictionary for 'Matching' mode.",
+            "select_dict_for_cards": "Please select a dictionary for 'Cards' mode.",
+
+            "empty_dict_warning": "Cannot start testing with an empty dictionary.",
+            "matching_mode_warning": "You need at least 2 words in the dictionary for 'Matching' mode.",
+            "no_words_to_repeat": "No words to repeat.",
+
+            "enter_word_to_translate": "Please enter a word to translate.",
+            "select_different_langs": "Please select different languages.",
+
+            "confirm_clear_stats": "Are you sure you want to clear your statistics?",
+            "confirm_clear_achievements": "Are you sure you want to clear your achievements?",
+            "confirm_clear_words": "Are you sure you want to clear incorrect words?",
+
+
+            "popup_session_title": "Test Results",
+            "popup_cards_title": "Cards Results",
+            "popup_test_completed": "Testing completed!",
+            "popup_session_completed": "Session completed!",
+            "popup_correct_format": "✅ Correct: {correct}",
+            "popup_mistakes_format": "❌ Mistakes: {wrong}",
+            "popup_learned_format": "✅ Learned: {correct}",
+            "popup_still_learning_format": "❌ Still learning: {wrong}",
+            "popup_accuracy_format": "Accuracy: {accuracy}%",
+            "popup_words_to_repeat": "Words to repeat:",
+            "popup_perfect_result": "🎉 Perfect result!\nYou made no mistakes.",
+            "popup_btn_retry": "Retry mistakes",
+            "popup_btn_menu": "Main menu",
+            "popup_btn_close": "Close",
+
+
+            "new_achievement_title": "🏆 New achievement!",
+            "new_achievements_title": "🏆 New achievements!",
+            "congrats_single": "Congratulations! You have unlocked a new achievement:\n\n",
+            "congrats_multiple": "Congratulations! You have unlocked new achievements:\n\n"
+        },
+        "achievements": {
+            "first_word": {
+                "title": "First Step",
+                "description": "Give your first correct answer in a quiz."
+            },
+            "first_mistake": {
+                "title": "Oh no",
+                "description": "Make your first mistake in a quiz."
+            },
+            "streak_10": {
+                "title": "Prodigy",
+                "description": "Get a streak of 10 correct answers in a row."
+            },
+            "polyglot": {
+                "title": "Polyglot",
+                "description": "Give 100 correct answers in total."
+            },
+            "perfect_test": {
+                "title": "Sniper",
+                "description": "Complete a 20-word quiz without a single mistake."
+            },
+            "living_dictionary": {
+                "title": "Living Dictionary",
+                "description": "Give 500 correct answers in total."
+            },
+            "streak_50": {
+                "title": "Unstoppable",
+                "description": "Get a streak of 50 correct answers in a row."
+            },
+            "night_owl": {
+                "title": "Night Owl",
+                "description": "Complete any quiz between 11:00 PM and 4:00 AM."
+            },
+            "early_bird": {
+                "title": "Early Bird",
+                "description": "Complete any quiz between 5:00 AM and 8:00 AM."
+            },
+            "the_end": {
+                "title": "The End?",
+                "description": "Clear all statistics and start over."
+            },
+            "librarian": {
+                "title": "Librarian",
+                "description": "Create 10 dictionaries."
+            }
+        },
+        "languages": {
+        "en": "English",
+        "uk": "Ukrainian",
+        "de": "German",
+        "pl": "Polish",
+        "cs": "Czech"
+        }
+    }
+}

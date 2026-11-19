@@ -1,0 +1,46 @@
+{
+    "first_word": {
+        "icon": "👶",
+        "is_unlocked": false
+    },
+    "first_mistake": {
+        "icon": "❗",
+        "is_unlocked": false
+    },
+    "streak_10": {
+        "icon": "🔥",
+        "is_unlocked": false
+    },
+    "polyglot": {
+        "icon": "🌍",
+        "is_unlocked": false
+    },
+    "perfect_test": {
+        "icon": "🎯",
+        "is_unlocked": false
+    },
+    "living_dictionary": {
+        "icon": "🌍",
+        "is_unlocked": false
+    },
+    "streak_50": {
+        "icon": "🔥",
+        "is_unlocked": false
+    },
+    "night_owl": {
+        "icon": "🦉",
+        "is_unlocked": false
+    },
+    "early_bird": {
+        "icon": "🌅",
+        "is_unlocked": false
+    },
+    "the_end": {
+        "icon": "🔄",
+        "is_unlocked": false
+    },
+    "librarian": {
+        "icon": "📚",
+        "is_unlocked": false
+    }
+}
